@@ -1,5 +1,5 @@
 class Author < ApplicationRecord
  def name
-   puts author.first_name + author.last_name
+   puts Author.first_name + Author.last_name
  end
 end
