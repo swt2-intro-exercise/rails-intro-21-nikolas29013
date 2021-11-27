@@ -1,5 +1,5 @@
 class Author < ApplicationRecord
   def name
-    puts 'Alan Turing'
+    return 'Alan Turing'
   end
 end
