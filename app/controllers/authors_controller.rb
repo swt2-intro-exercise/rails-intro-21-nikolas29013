@@ -5,10 +5,6 @@ class AuthorsController < ApplicationController
    def create
       @author = Author.new(params[:author])
       @author.save
-      redirect_to @author
-   end
-   
-   def name
-     puts @author.first_name + @author.last_name 
+      redirect_to root_path
    end
 end
