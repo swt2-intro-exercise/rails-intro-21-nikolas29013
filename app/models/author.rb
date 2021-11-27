@@ -1,5 +1,5 @@
 class Author < ApplicationRecord
   def name
-    return author.first_name + author.laste_name
+    return Author.first_name + Author.laste_name
   end
 end
